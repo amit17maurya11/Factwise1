@@ -1,0 +1,89 @@
+.inputt{
+  margin: 15px 0px 0px 550px;
+  border: 3px solid #ddd;
+  width: 25vw;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+h5{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.25rem;
+  margin: 0;
+
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion{
+  width: 500px;
+  padding: 0px
+}
+
+.accordion input{
+  width: 7vw;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+}
+
+.des{
+  width: 22vw;
+  height: 30vh;
+
+}
+
+.item{
+  border: 2px solid #ddd;
+  border-radius: 25px;
+ padding: 10px;
+ margin: 20px;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;}
+
+.content{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show{
+  max-height: 999px;
+  height: auto;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+  padding: 20px;
+}
+
+.agee{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.delete{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.pluse{
+  cursor: pointer;
+}
